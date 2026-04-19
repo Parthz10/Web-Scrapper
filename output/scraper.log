@@ -1,0 +1,10 @@
+2026-04-19 16:35:59 | INFO     | Browser launched (headless=True)
+2026-04-19 16:35:59 | INFO     | Scraping → https://news.ycombinator.com
+2026-04-19 16:40:17 | INFO     | Browser launched (headless=True)
+2026-04-19 16:40:17 | INFO     | Scraping → https://news.ycombinator.com
+2026-04-19 16:41:02 | SUCCESS  | Done: 60 total element(s) across 2 selector(s) on https://news.ycombinator.com
+2026-04-19 16:41:02 | INFO     | Scraping → https://webscraper.io/test-sites/e-commerce/allinone
+2026-04-19 16:41:11 | SUCCESS  | Done: 6 total element(s) across 2 selector(s) on https://webscraper.io/test-sites/e-commerce/allinone
+2026-04-19 16:41:12 | INFO     | Browser closed.
+2026-04-19 16:41:12 | INFO     | JSON saved → output\results.json
+2026-04-19 16:41:12 | INFO     | All jobs complete.
