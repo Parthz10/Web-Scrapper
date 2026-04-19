@@ -70,13 +70,13 @@ if __name__ == "__main__":
     results = asyncio.run(run())
     # Pretty-print summary to terminal
     for r in results:
-        print(f"\n{'─'*60}")
+        print(f"\n{'-'*60}")
         print(f"URL : {r.get('url')}")
         if "error" in r:
             print(f"ERR : {r['error']}")
         else:
             for label, items in r["data"].items():
-                print(f"  [{label}] → {len(items)} item(s)")
+                print(f"  [{label}] -> {len(items)} item(s)")
                 for item in items[:3]:
-                    print(f"    • {str(item)[:80]}")
+                    print(f"    - {str(item)[:80]}")
             print(f"  meta: {r['metadata']}")
